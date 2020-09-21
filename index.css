@@ -38,7 +38,7 @@ body {
     display: flex;
     margin: 0 0;
     text-align: center;
-    padding: 180px 0 100px 0;
+  
     width: 100%;
   }
   .content-wrapper h1{
@@ -46,11 +46,8 @@ body {
   letter-spacing: 5px;
   margin-bottom: 70px;
   }
-  .start-content{
-    text-align: center;
-  }
+
   .start-content p{
-    max-width: 500px;
     width: 90%;
     margin: 0 auto;
     font-weight: 600;
@@ -207,7 +204,8 @@ body {
       text-decoration: none;
       color: #fff;
       background-color: #FF8CA0;
-      width: 420px;
+      max-width: 420px;
+      width: 90%;
       padding: 20px 10px;
       border-radius: 20px;
       font-size: 30px;
