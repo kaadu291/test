@@ -222,15 +222,17 @@ body {
   @media screen and (max-width: 960px) {
     /*index*/
     .content-wrapper{
-      padding: 60px 0 100px 0;
+      padding: 50px 0 100px 0;
     }
     .content-wrapper h1{
       font-size: 60px;
+      line-height: 70px;
     letter-spacing: 3px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     }
     .start-content p{
       margin-bottom: 50px;
+      font-size: 16px;
     }
     /*quiz*/
     .app-theme{
