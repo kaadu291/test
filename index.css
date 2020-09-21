@@ -184,9 +184,9 @@ body {
   min-width: 200px;
 }
   
-  .result-percentage img{
+  #type-image-percentage{
     width: 100px;
-    height: 80px;
+    height: auto;
   } 
   .result-percentage p{
     font-size: 24px;
