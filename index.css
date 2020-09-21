@@ -68,17 +68,19 @@ body {
   /*quiz*/
 
   .choose_box {
+    margin: 0 auto;
+    padding: 0;
     text-align: center;
-    width: 100%;
+    width: 90%;
   }
    .choose_box p {
       text-align: center;
     }
-  
+
   .buttons ul{
     display: flex;
     justify-content: center;
-    padding: 0 15px;
+    padding: 0;
   }
   
   .buttons li{
@@ -89,6 +91,7 @@ body {
     flex-basis: 400px;
     flex-shrink: 1;
     position: relative;
+
   }
   
   .choose_box ul li a {
@@ -99,7 +102,6 @@ body {
     
     font-weight: 600;
     font-size: 30px;
-    vertical-align: center;
     height: 250px;
     width: 90%;
     text-decoration: none;
@@ -201,15 +203,16 @@ body {
   .wide-btn {
     display: inline-block;
     text-align: center;
-      text-decoration: none;
-      color: #fff;
-      background-color: #FF8CA0;
-      max-width: 420px;
-      width: 90%;
-      padding: 20px 10px;
-      border-radius: 20px;
-      font-size: 30px;
-      font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF8CA0;
+    max-width: 420px;
+    width: 90%;
+    padding: 20px 10px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
   }
   
   .wide-btn:hover :active{
@@ -280,5 +283,10 @@ body {
     } 
     .result-percentage{
       margin-bottom: 30px;
+    }
+
+    .wide-btn {
+      padding: 15px 10px;
+      font-size: 26px;
     }
   }
