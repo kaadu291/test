@@ -1,0 +1,286 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Yu Gothic", YuGothic, sans-serif;
+    color:#4C393C;
+    background-color: pink;
+  }
+  
+
+   .container {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1100px;
+  }
+
+  .flexbox{
+    display: flex;
+    justify-content: space-around;
+  }
+
+/* header */
+  header {
+    height: 58px;
+    width: 100%;
+    background-color: #4C393C;   
+    margin-top: 0; 
+  }
+  .logo{
+    color: white;
+    text-align: center;
+    font-style: bold;
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  .content-wrapper{
+    display: flex;
+    margin: 0 0;
+    height: auto;
+    padding: 0 0;
+    width: auto;
+    text-align: center;
+    padding: 180px 0 100px 0;
+  }
+  .content-wrapper h1{
+    font-size: 100px;
+  letter-spacing: 5px;
+  margin-bottom: 70px;
+  }
+  .start-content{
+    text-align: center;
+  }
+  .start-content p{
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 150px;
+    line-height: 32px;
+  }
+  footer{
+    width: 100%;
+    background-color: #4C393C;
+    position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/ 
+    text-align: center;  
+    color: white;
+  }
+
+
+  /*quiz*/
+
+  .choose_box {
+    text-align: center;
+    width: 100%;
+  }
+   .choose_box p {
+      text-align: center;
+    }
+  
+  .buttons ul{
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+  }
+  
+  .buttons li{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 400px;
+    flex-shrink: 1;
+    position: relative;
+  }
+  
+  .choose_box ul li a {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    background-color: #FF8CA0;
+    
+    font-weight: 600;
+    font-size: 30px;
+    vertical-align: center;
+    height: 250px;
+    width: 90%;
+    text-decoration: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+  }
+  .choose_box ul li a p{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  width: 90%;
+  position: absolute;
+  top: 50%; /*親要素を起点に上から50%*/
+  left: 50%;  /*親要素を起点に左から50%*/
+  transform: translateY(-50%) translateX(-50%); /*要素の大きさの半分ずつを戻す*/
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  }
+
+  .choose_box ul li a:hover {
+     background-color: #FFA9BB;
+    color: #FFf;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s;
+  }
+  .app-theme{
+    text-align: center;
+    margin-top: 60px;
+  }
+  #quiz-count{
+    font-size: 60px;
+    font-weight: 600;
+    display: block;
+    color:#4C393C;
+  }
+  .app-theme p {
+    color:#4C393C;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
+  /*result-----------------*/
+  .result_theme{
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px 10px 52px 10px;
+    border-radius: 10px;
+    max-width: 1100px;
+    width: 85%;
+    text-align: center;
+  }
+  .type-image{
+    width: 186px;
+    height: 149px;
+  }
+
+  .result_type h4 {
+      margin: 0px 0 30px 0;
+      font-size: 48px;
+      font-weight: 600;
+    }  
+  .result_title{
+      margin-top: 8px;
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 0px;
+  }
+  .result_message{
+    margin: 0px auto;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 800px;
+  }  
+  .result_discription0 {
+      text-align: center;
+      flex-wrap: wrap;
+  }
+.result-percentage{
+  margin-bottom: 50px;
+  min-width: 200px;
+}
+  
+  .result-percentage img{
+    width: 100px;
+    height: 80px;
+  } 
+  .result-percentage p{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 13px 0 0px 0;
+  } 
+  .result-percentage .percentage{
+    font-size: 48px;
+    font-weight: 600;
+  } 
+
+  .wide-btn {
+    display: inline-block;
+    text-align: center;
+      text-decoration: none;
+      color: #fff;
+      background-color: #FF8CA0;
+      width: 420px;
+      padding: 20px 10px;
+      border-radius: 20px;
+      font-size: 30px;
+      font-weight: 600;
+  }
+  
+  .wide-btn:hover {
+      background-color: #FFA9BB;
+      transition: 0.3s;
+  }
+  
+  
+  
+  @media (max-width: 640px) {
+    /*index*/
+    .content-wrapper{
+      padding: 60px 0 100px 0;
+    }
+    .content-wrapper h1{
+      font-size: 60px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    }
+    .start-content p{
+      margin-bottom: 50px;
+    }
+    /*quiz*/
+    .app-theme{
+      margin-top: 30px;
+    }
+    #quiz-count{
+      font-size: 34px;
+    }
+    .app-theme p {
+      font-size: 24px;
+    }
+    .choose_box ul li a {
+      font-size: 20px;
+      height: 200px;
+      width: 90%;
+    }
+    /*result*/
+    .result_theme{
+      margin: 30px auto;
+      padding: 20px 10px 30px 10px;
+    }
+    .type-image{
+      width: 100px;
+      height: 80px;
+    }
+  
+    .result_type h4 {
+        margin: 0px 0 15px 0;
+        font-size: 48px;
+        font-weight: 600;
+      }  
+    .result_title{
+        font-size: 24px;
+    }
+    .result_message{
+      font-size: 18px;
+      max-width: 400px;
+    }  
+    .result-percentage img{
+      width: 75px;
+      height: 60px;
+    } 
+    .result-percentage p{
+      margin: 5px 0 0px 0;
+    } 
+    .result-percentage{
+      margin-bottom: 30px;
+    }
+  }

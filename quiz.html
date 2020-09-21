@@ -1,0 +1,315 @@
+
+<html>
+<head>
+  <title>愛の言葉診断</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+</script>
+<div class="fullview">
+  <header>
+    <div class="container">
+            <p class="logo">愛の言語診断</p>
+    </div>
+  </header>
+  <div class="choose_box">
+        <!-- 質問一覧 -->
+      <div class="container flexbox">
+        <div class="app-theme">
+          <div id="quiz-count"></div>
+          <p id="question">愛している人との関係、時間で、より価値のある事を選んでください</p>
+        </div>
+      </div>
+      <div class="buttons">
+        <!-- 質問1 -->
+        <div id="q_01" >
+          <ul>
+            <li><a class="btn" href="#q_02" data-value="a"><p>手紙を書いてくれる</p></a></li>
+            <li><a class="btn" href="#q_02" data-value="e"><p>抱きしめてくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問2 -->
+        <div id="q_02" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_03" data-value="b"><p>二人きりで過ごす</p></a></li>
+            <li><a class="btn" href="#q_03" data-value="d"><p>仕事を手伝ってもらう</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問3 -->
+        <div id="q_03" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_04" data-value="c"><p>プレゼントを贈られる</p></a></li>
+            <li><a class="btn" href="#q_04" data-value="b"><p>気軽に雑談する</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問4 -->
+        <div id="q_04" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_05" data-value="d"><p>助けてくれる</p></a></li>
+            <li><a class="btn" href="#q_05" data-value="e"><p>触れてくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問5 -->
+        <div id="q_05" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_06" data-value="e"><P>出かけている時に肩を抱いてくれる</p></a></li>
+            <li><a class="btn" href="#q_06" data-value="c"><P>プレゼントで驚かせてくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問6 -->
+        <div id="q_06" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_07" data-value="b"><P>一緒に出かける</p></a></li>
+            <li><a class="btn" href="#q_07" data-value="e"><P>握手をしたり、てをつなぐ</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問7 -->
+        <div id="q_07" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_08" data-value="c"><P>プレゼントをもらう</p></a></li>
+            <li><a class="btn" href="#q_08" data-value="a"><P>愛していると伝えられる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問8 -->
+        <div id="q_08" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_09" data-value="e"><P>一緒に座っているとき</p></a></li>
+            <li><a class="btn" href="#q_09" data-value="a"><P>「あなたって素敵」と自然に褒められる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問9 -->
+        <div id="q_09" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_10" data-value="b"><P>ただ一緒に時間を過ごす</p></a></li>
+            <li><a class="btn" href="#q_10" data-value="c"><P>ちょっとしたプレゼントをもらう</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問10 -->
+        <div id="q_10" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_11" data-value="a"><P>「誇りに思っている」と言われる</p></a></li>
+            <li><a class="btn" href="#q_11" data-value="d"><P>（家事などの）仕事を手伝ってくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問11 -->
+        <div id="q_11" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_12" data-value="b"><P>何かを一緒にする</p></a></li>
+            <li><a class="btn" href="#q_12" data-value="a"><P>励ましの言葉をかけられる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問12 -->
+        <div id="q_12" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_13" data-value="d"><P>口でいうだけではなく、実際に助けてくれる</p></a></li>
+            <li><a class="btn" href="#q_13" data-value="e"><P>抱きしめて、つながりを感じさせてくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問13 -->
+        <div id="q_13" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_14" data-value="a"><P>褒めてくれる</p></a></li>
+            <li><a class="btn" href="#q_14" data-value="c"><P>とても気にかけていることを、示してくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問14 -->
+        <div id="q_14" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_15" data-value="b"><P>ただ一緒にいてくれる</p></a></li>
+            <li><a class="btn" href="#q_15" data-value="e"><P>背中をさすってくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問15 -->
+        <div id="q_15" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_16" data-value="a"><P>あなたが達成したことを喜んでくれる</p></a></li>
+            <li><a class="btn" href="#q_16" data-value="d"><P>あなたのために、面倒なことをしてくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問16 -->
+        <div id="q_16" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_17" data-value="e"><P>近くにいてくれること</p></a></li>
+            <li><a class="btn" href="#q_17" data-value="b"><P>あなたの好きなことに興味を持ってくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問17 -->
+        <div id="q_17" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_18" data-value="d"><P>大切な仕事や企画を手伝ってくれる</p></a></li>
+            <li><a class="btn" href="#q_18" data-value="c"><P>素晴らしいプレゼントをくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問18 -->
+        <div id="q_18" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_19" data-value="a"><P>容姿をほめてくれる</p></a></li>
+            <li><a class="btn" href="#q_19" data-value="b"><P>話を聞いてくれて、気持ちを理解してくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問19 -->
+        <div id="q_19" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_20" data-value="e"><P>出かけるときに、触れていられる</p></a></li>
+            <li><a class="btn" href="#q_20" data-value="d"><P>家事や雑用を手伝ってくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問20 -->
+        <div id="q_20" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_21" data-value="d"><P>特別なことをして、助けしてくれる</p></a></li>
+            <li><a class="btn" href="#q_21" data-value="c"><P>真剣に悩んで選んだプレゼントをくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問21 -->
+        <div id="q_21" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_22" data-value="b"><P>２人で話しているときに、スマホに触れないでいてくれる</p></a></li>
+            <li><a class="btn" href="#q_22" data-value="d"><P>あなたが困っているときに、全力で助けてくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問22 -->
+        <div id="q_22" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_23" data-value="c"><P>贈り物をくれるであろう記念日を楽しみにしているとき</p></a></li>
+            <li><a class="btn" href="#q_23" data-value="a"><P>「感謝してる」と伝えてくれるとき</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問23 -->
+        <div id="q_23" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_24" data-value="c"><P>しばらく会えなかった時、ちょっとした贈り物をくれる</p></a></li>
+            <li><a class="btn" href="#q_24" data-value="d"><P>家事や雑用をストレスに感じているとき、代わりにしてくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問24 -->
+        <div id="q_24" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_25" data-value="b"><P>ただ静かにあなたの話を聞いてくれる</p></a></li>
+            <li><a class="btn" href="#q_25" data-value="c"><P>記念日に、プレゼントをくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問25 -->
+        <div id="q_25" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_26" data-value="d"><P>あなたが疲れているときに、手助けしてくれる</p></a></li>
+            <li><a class="btn" href="#q_26" data-value="b"><P>一緒に遠くへ出かけてくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問26 -->
+        <div id="q_26" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_27" data-value="e"><P>肩や腕に触れ、気にかけている気持ちを伝えてくれる</p></a></li>
+            <li><a class="btn" href="#q_27" data-value="c"><P>理由もなく、普通の日にプレゼントをくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問27 -->
+        <div id="q_27" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_28" data-value="a"><P>励ましの言葉をかけてくれる</p></a></li>
+            <li><a class="btn" href="#q_28" data-value="b"><P>一緒に趣味をしたり、何かに取り組む</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問28 -->
+        <div id="q_28" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_29" data-value="c"><P>感謝の気持ちを込めた贈り物で驚かせてくれる</p></a></li>
+            <li><a class="btn" href="#q_29" data-value="e"><P>親しみを伝えるために、頻繁にスキンシップする</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問29 -->
+        <div id="q_29" style="display: none;">
+          <ul>
+            <li><a class="btn" href="#q_30" data-value="d"><P>すごく忙しい時でも、あなたを助けてくれる</p></a></li>
+            <li><a class="btn" href="#q_30" data-value="a"><P>「感謝しています」と伝えてくれる</p></a></li>
+          </ul>
+        </div>
+
+        <!-- 質問30 -->
+        <div id="q_30" style="display: none;">
+          <ul>
+            <li><a class="btn end" data-value="e"><P>しばらく会えていなかったときに、ハグする</p></a></li>
+            <li><a class="btn end" data-value="a"><P>「あなたが大切なんです」と伝えられる</p></a></li>
+          </ul>
+        </div>
+      </div>
+
+
+
+<!-- ここから以下回答 -->
+  <!-- 回答の答え1 -->
+     <div id="answer_01" class="result" style="display: none;">
+      <div class="result_theme ">
+            <img class="type-image">
+            <p class="result_title">あなたの愛の言語は</p>
+            <div class="result_type "></div>
+            <div class="result_message"></div>
+      </div>
+
+      <div class="result_discription0 container flexbox">
+        <div class="result-percentage">
+          <img id="type-image-percentage" src="images/image-words.svg">
+            <p>肯定の言葉</p>
+          <div class="percentage" id="resultA"></div>
+        </div>
+        <div class="result-percentage">
+          <img id="type-image-percengate" src="images/image-time.svg">
+          <p>充実した時間</p>
+          <div class="percentage" id="resultB"></div>
+        </div>
+        <div class="result-percentage">
+          <img id="type-image-percengate" src="images/image-present.svg">
+          <p>プレゼント</p>
+          <div class="percentage" id="resultC"></div>
+        </div>
+        <div class="result-percentage">
+         <img id="type-image-percengate" src="images/image-volunteer.svg">
+          <p>奉仕行動</p>
+          <div class="percentage" id="resultD"></div>
+        </div>
+        <div class="result-percentage">
+          <img id="type-image-percengate" src="images/image-contact.svg">
+          <p>スキンシップ</p>
+          <div class="percentage" id="resultE"></div> 
+        </div>
+      </div>
+      <div class="return-btn">
+        <a class="wide-btn" href="index.html">もどる</a>
+      </div>
+    </div>
+
+ </div>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
