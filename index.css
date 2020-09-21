@@ -221,6 +221,9 @@ body {
   
   
   @media (max-width: 960px) {
+    .container {
+      max-width: 960px;
+    }
     /*index*/
     .content-wrapper{
       padding: 60px 0 100px 0;
