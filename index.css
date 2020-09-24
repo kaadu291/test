@@ -323,10 +323,12 @@ body {
       height: 150px;
       width: 90%;
     }
+    .choose_box {
+      width: 95%;
+    }
     /*result*/
     .result_theme{
       margin: 10px auto 20px auto;
-      width: 95%;
       padding: 10px 20px 20px 20px;
     }
     .type-image{
