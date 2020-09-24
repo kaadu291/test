@@ -7,7 +7,6 @@ body {
     color:#4C393C;
     background-color: pink;
   }
-  
 
    .container {
     margin: 0 auto;
@@ -45,8 +44,8 @@ body {
   }
   .content-wrapper h1{
     font-size: 100px;
-  letter-spacing: 5px;
-  margin-bottom: 70px;
+    letter-spacing: 5px;
+    margin-bottom: 70px;
   }
 
   .start-content p{
@@ -70,13 +69,11 @@ body {
   /*quiz*/
 
   .choose_box {
-    padding: 0;
     text-align: center;
   }
   .buttons ul{
     display: flex;
     justify-content: center;
-    padding: 0 auto;
   }
   
   .buttons li{
@@ -107,7 +104,7 @@ body {
   .choose_box ul li a p{
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
-  width: 90%;
+  width: 100%;
   position: absolute;
   top: 50%; /*親要素を起点に上から50%*/
   left: 50%;  /*親要素を起点に左から50%*/
@@ -259,12 +256,12 @@ body {
     }
   
     .result_type h4 {
-        margin: 0px 0 25px 0;
-        font-size: 48px;
-        font-weight: 600;
-      }  
+      margin: 0px 0 25px 0;
+      font-size: 48px;
+      font-weight: 600;
+    }  
     .result_title{
-        font-size: 24px;
+      font-size: 24px;
     }
     .result_message{
       font-size: 18px;
@@ -312,6 +309,9 @@ body {
     .app-theme p {
       font-size: 24px;
     }
+    .choose_box ul{
+      padding: 0 auto;
+    }
     .choose_box ul li a {
       font-size: 20px;
       height: 150px;
@@ -322,17 +322,17 @@ body {
       padding: 10px 20px 20px 20px;
     }
     .type-image{
-      width: 70px;
+      width: 60px;
       height: auto;
     }
   
     .result_type h4 {
-        margin: 0px 0 5px 0;
-        font-size: 30px;
-        font-weight: 600;
-      }  
+      margin: 0px 0 5px 0;
+      font-size: 30px;
+      font-weight: 600;
+    }  
     .result_title{
-        font-size: 16px;
+      font-size: 16px;
     }
     .result_message{
       font-size: 16px;
