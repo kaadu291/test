@@ -35,7 +35,6 @@ body {
     font-size: 20px;
   }
   .content-wrapper{
-    display: flex;
     margin: 0 0;
     text-align: center;
     padding: 80px 0 100px 0;
@@ -181,10 +180,9 @@ body {
       text-align: center;
       flex-wrap: wrap;
   }
-.result-percentage{
-  margin-bottom: 50px;
-  min-width: 200px;
-}
+  .result-percentage{
+    margin-bottom: 50px;
+  }
   
   #type-image-percentage{
     width: 100px;
@@ -224,6 +222,9 @@ body {
   
   @media screen and (max-width: 960px) {
     /*index*/
+    .container {
+      width: 100%;
+    }
     .content-wrapper{
       padding: 80px 0 100px 0;
     }
@@ -298,7 +299,7 @@ body {
       padding: 30px 0 100px 0;
     }
     .content-wrapper h1{
-      font-size: 40px;
+      font-size: 36px;
       line-height: 50px;
     letter-spacing: 2px;
     margin-bottom: 28px;
@@ -324,7 +325,7 @@ body {
     }
     /*result*/
     .result_theme{
-      margin: 30px auto;
+      margin: 20px auto;
       width: 90%;
       padding: 20px 20px 20px 20px;
     }
@@ -346,17 +347,16 @@ body {
       max-width: 400px;
     }  
     #type-image-percentage{
-      width: 70px;
+      width: 60px;
       height: auto;
     } 
     .result-percentage p{
-      font-size: 20px;
-      margin: 5px 0 0px 0;
+      font-size: 12px;
     } 
     .result-percentage{
       margin-bottom: 24px;
     }
     .result-percentage .percentage{
-      font-size: 30px;
+      font-size: 28px;
     } 
   }
