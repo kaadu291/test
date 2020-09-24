@@ -155,7 +155,7 @@ body {
   }
   .type-image{
     width: 186px;
-    height: 149px;
+    height: auto;
   }
 
   .result_type h4 {
@@ -325,8 +325,8 @@ body {
     }
     /*result*/
     .result_theme{
-      margin: 20px auto;
-      width: 90%;
+      margin: 10px auto 20px auto;
+      width: 95%;
       padding: 10px 20px 20px 20px;
     }
     .type-image{
@@ -354,7 +354,7 @@ body {
       font-size: 10px;
     } 
     .result-percentage{
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
     .result-percentage .percentage{
       font-size: 24px;
