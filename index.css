@@ -71,6 +71,7 @@ body {
   .choose_box {
     text-align: center;
   }
+
   .buttons ul{
     display: flex;
     justify-content: center;
@@ -104,7 +105,7 @@ body {
   .choose_box ul li a p{
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
-  width: 100%;
+  width: 90%;
   position: absolute;
   top: 50%; /*親要素を起点に上から50%*/
   left: 50%;  /*親要素を起点に左から50%*/
@@ -310,8 +311,9 @@ body {
       font-size: 24px;
     }
     .choose_box ul{
-      padding: 0 auto;
+      padding-left: 20px;
     }
+
     .choose_box ul li a {
       font-size: 20px;
       height: 150px;
@@ -354,5 +356,6 @@ body {
     .return-btn .wide-btn {
       padding: 15px 10px;
       font-size: 26px;
+      margin-bottom: 0px;
     }
   }
