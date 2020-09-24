@@ -291,3 +291,72 @@ body {
       font-size: 26px;
     }
   }
+
+  @media screen and (max-width: 640px) {
+    /*index*/
+    .content-wrapper{
+      padding: 30px 0 100px 0;
+    }
+    .content-wrapper h1{
+      font-size: 40px;
+      line-height: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 28px;
+    }
+    .start-content p{
+      margin-bottom: 20px;
+      line-height: 20px;
+    }
+    /*quiz*/
+    .app-theme{
+      margin-top: 20px;
+    }
+    #quiz-count{
+      font-size: 30px;
+    }
+    .app-theme p {
+      font-size: 24px;
+    }
+    .choose_box ul li a {
+      font-size: 20px;
+      height: 150px;
+      width: 90%;
+    }
+    /*result*/
+    .result_theme{
+      margin: 30px auto;
+      width: 90%;
+      padding: 20px 20px 20px 20px;
+    }
+    .type-image{
+      width: 80px;
+      height: auto;
+    }
+  
+    .result_type h4 {
+        margin: 0px 0 0px 0;
+        font-size: 30px;
+        font-weight: 600;
+      }  
+    .result_title{
+        font-size: 16px;
+    }
+    .result_message{
+      font-size: 16px;
+      max-width: 400px;
+    }  
+    #type-image-percentage{
+      width: 70px;
+      height: auto;
+    } 
+    .result-percentage p{
+      font-size: 20px;
+      margin: 5px 0 0px 0;
+    } 
+    .result-percentage{
+      margin-bottom: 24px;
+    }
+    .result-percentage .percentage{
+      font-size: 30px;
+    } 
+  }
