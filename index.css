@@ -19,6 +19,9 @@ body {
     display: flex;
     justify-content: space-around;
   }
+  .fullview{
+    margin: 0 auto;
+  }
 
 /* header */
   header {
@@ -67,19 +70,13 @@ body {
   /*quiz*/
 
   .choose_box {
-    margin: 0 auto;
     padding: 0;
     text-align: center;
-    width: 90%;
   }
-   .choose_box p {
-      text-align: center;
-    }
-
   .buttons ul{
     display: flex;
     justify-content: center;
-    padding: 0;
+    padding: 0 auto;
   }
   
   .buttons li{
@@ -223,7 +220,7 @@ body {
   @media screen and (max-width: 960px) {
     /*index*/
     .container {
-      width: 100%;
+      width: 95%;
     }
     .content-wrapper{
       padding: 80px 0 100px 0;
@@ -251,7 +248,6 @@ body {
     .choose_box ul li a {
       font-size: 20px;
       height: 200px;
-      width: 90%;
     }
     /*result*/
     .result_theme{
@@ -321,10 +317,6 @@ body {
     .choose_box ul li a {
       font-size: 20px;
       height: 150px;
-      width: 90%;
-    }
-    .choose_box {
-      width: 95%;
     }
     /*result*/
     .result_theme{
