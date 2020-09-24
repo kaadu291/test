@@ -87,7 +87,6 @@ body {
     flex-basis: 400px;
     flex-shrink: 1;
     position: relative;
-
   }
   
   .choose_box ul li a {
@@ -95,7 +94,6 @@ body {
     color: #fff;
     display: inline-block;
     background-color: #FF8CA0;
-    
     font-weight: 600;
     font-size: 30px;
     height: 250px;
@@ -105,6 +103,7 @@ body {
     -moz-border-radius: 6px;
     border-radius: 6px;
   }
+
   .choose_box ul li a p{
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
@@ -252,7 +251,6 @@ body {
     /*result*/
     .result_theme{
       margin: 30px auto;
-      width: 90%;
       padding: 20px 20px 40px 20px;
     }
     .type-image{
@@ -297,8 +295,8 @@ body {
     .content-wrapper h1{
       font-size: 32px;
       line-height: 50px;
-    letter-spacing: 1px;
-    margin-bottom: 28px;
+      letter-spacing: 1px;
+      margin-bottom: 28px;
     }
     .start-content p{
       margin-bottom: 20px;
@@ -320,9 +318,8 @@ body {
     }
     /*result*/
     .result_theme{
-      margin: 10px auto 15px auto;
+      margin: 10px auto;
       padding: 10px 20px 20px 20px;
-      width: 85%;
     }
     .type-image{
       width: 70px;
