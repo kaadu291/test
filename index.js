@@ -1,4 +1,9 @@
 
+    var countUpValue = 1;
+    window.onload = function onLoad(){
+      target = document.getElementById("quiz-count");
+      target.innerHTML = countUpValue + "/30";
+      };
 //ボタンを押すごとに画面が切り替わる関数
   $(function () {
 
@@ -7,13 +12,6 @@
       id = $(this).attr("href");
       $(id).addClass("fit").fadeIn("slow").show();
     });
-
-    var countUpValue = 1;
-    window.onload = function onLoad(){
-      target = document.getElementById("quiz-count");
-      target.innerHTML = countUpValue + "/30";
-      };
-
       
     let targets = document.getElementsByClassName("btn");
     for(let i = 0; i < targets.length; i++){
